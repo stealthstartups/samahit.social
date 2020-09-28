@@ -1,254 +1,341 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <title>BuidlIn - A Rustic developer hub for buidlin Web 3</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bootstrap Documentation Template For Software Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-    
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome JS-->
-    <script defer src="assets/fontawesome/js/all.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Ankit Raj</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' /> -->
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
 
-</head> 
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+  <body class="bg-fixed bg-1">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+            <div id="logo">
+                <h2>
+                    Ankit Raj
+                </h2>
+                <h4>
+                    Blockchain | Open Finance | Distributed System 
+                </h4>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab' id="tab-about">
+                  <a href="#about"><i class="icon-user"></i><span>About</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume"><i class="icon-file-text"></i><span>Work-X</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#portfolio"><i class="icon-heart"></i><span>Hacks++</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#contact"><i class="icon-envelope"></i><span>Contact</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="profile.png" alt="Sunny Luthra">
+                            </div>
+                            <div class="info">
+                                <h3>
+                                    <b>ANKIT RAJ</b>
+                                </h3>
+                                <!-- <h5>
+                                    Open Finance | Distributed System
+                                </h5> -->
+                                <p>
+                                  <b> Hello!</b><br>
+                                  I am consulting early-stage startups around digitalization and decentralization for fintech, identity and edutech industry. I help startups in building tech and designing growth strategy.  
+                                  <br> <br>
 
-<body>    
-    <header class="header fixed-top">	    
-        <div class="branding docs-branding">
-            <div class="container-fluid position-relative py-2">
-                <div class="docs-logo-wrapper">
-	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2" src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Buidlin<span class="text-alt"></span></span></a></div>    
-                </div><!--//docs-logo-wrapper-->
-	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-	
-					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-						<li class="list-inline-item"><a href="https://github.com/buidlin"><i class="fab fa-github fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="https://twitter.com/buidlin"><i class="fab fa-twitter fa-fw"></i></a></li>
-		                <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-discord fa-fw"></i></a></li> -->
-		            </ul><!--//social-list-->
-		            
-	            </div><!--//docs-top-utilities-->
-            </div><!--//container-->
-        </div><!--//branding-->
-    </header><!--//header-->
-    
-    
-    <div class="page-header theme-bg-dark py-5 text-center position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h1 class="page-heading single-col-max mx-auto">Rustic hub for Web3 developers</h1>
-		    <div class="page-intro single-col-max mx-auto">Rustic super knowledge hub is to provides developer baseline knowledge for Rust buidl community around Web3 ecosystem.</div>
-		    <div class="main-search-box pt-3 d-block mx-auto">
-                 <form class="search-form w-100">
-		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-		        </form>
-             </div>
-	    </div>
-    </div><!--//page-header-->
-    <div class="page-content">
-	    <div class="container">
-		    <div class="docs-overview py-5">
-			    <div class="row justify-content-center">
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-map-signs"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Vision</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-							    </div>
-							    <a class="card-link-mask" href="docs-page.html#section-1"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-arrow-down"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Why Rust</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-							    </div>
-							    <a class="card-link-mask" href="docs-page.html#section-2"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-box fa-fw"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Rust Best Practice</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-3"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-cogs fa-fw"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Security tools</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-4"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-tools"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Known attacks</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-5"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-laptop-code"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Glossary</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-6"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-tablet-alt"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Protocols on Rust</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-7"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-book-reader"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">Projects on Rust</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-8"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-				    <div class="col-12 col-lg-4 py-3">
-					    <div class="card shadow-sm">
-						    <div class="card-body">
-							    <h5 class="card-title mb-3">
-								    <span class="theme-icon-holder card-icon-holder mr-2">
-								        <i class="fas fa-lightbulb"></i>
-							        </span><!--//card-icon-holder-->
-							        <span class="card-title-text">FAQs</span>
-							    </h5>
-							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.						    
-								</div>
-							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
-						    </div><!--//card-body-->
-					    </div><!--//card-->
-				    </div><!--//col-->
-			    </div><!--//row-->
-		    </div><!--//container-->
-		</div><!--//container-->
-    </div><!--//page-content-->
+Previously, I had co-founded two startups, one in fintech - Neo Banking (Bitberri) and another on edutech (Blockvidhya). During the startup journey, I was also the part of two incubators Entrepreneur First (Singapore) & IIT MANDI catalyst (India). <br> <br>
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Developer hub for developers by Developers</h3>
-		    <div class="section-intro text-white mb-3 single-col-max mx-auto"> We wanted to make Developer resources more accssiacble by best possible way. Please, help us in spreading the knowledge. Feedbacks most welcome.<br> <br>
-		    Eth address:  0x1D030De9290C328790a07EB06393E28E2F6D715D</div>
-		    <div class="pt-3 text-center">
-			    <a class="btn btn-dark" href="https://etherscan.io/address/0x1D030De9290C328790a07EB06393E28E2F6D715D">Donate<i class="fas fa-arrow-alt-circle-up ml-2"></i></a>
-		    </div>
-		     <div class="section-intro text-white mb-3 single-col-max mx-auto"> <br><b>DISCLAIMER:</b> Buidl.in is an open-source initiative by Web3 community members. Nothing contained here or at Github repository should be considered financial or investment advice - it is just for informational purposes only.</div>
-	    </div>
-    </section><!--//cta-section-->
+I had worked as a programmer at Red Hat -- building storage software of several petabytes ( 1000 TB ), BigChainDB -- building protocol layer for data sharing and been grantee from Ethereum Foundation to work on Solidity language.  <br> <br>
 
-               
-    
-    <footer class="footer">
 
-	    <div class="footer-bottom text-center py-2">
-		    
-		    <ul class="social-list list-unstyled pb-1 mb-0">
-			    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
-	            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-	            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-discord fa-fw"></i></a></li> -->
-	            
-	        </ul><!--//social-list-->
-	        
-	      
-            <small class="copyright">Rustic Developer hub <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://buidl.in" target="_blank">Developers </a> for developers</small>
-	        
-	    </div>
-	    
-    </footer>
-       
-    <!-- Javascript -->          
-    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+When I am free, I prefer to blog on decentralization, Open Baning, and DeFi space.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                        <a href="#resume">Work Experience</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">Hackathons and Volunteer</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#features">Hackathons and Volunteer</a>
+                                    </li> -->
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://medium.com/@a4nkit">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="https://twitter.com/a4nkit">Twitter</a></h3>
+                                <p><br></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="http://github.com/aj07">GitHub</a></h3>
+                                <p><br></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <i class="icon-"></i>
+                              <div class="item-data">
+                                <h3><a href="https://www.linkedin.com/in/ankitrajjha/">LinkedIn</a></h3><br>
+                                <p></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                        <!-- <div class="g2"> -->
+                            <h3>
+                                Experience
+                            </h3>
+                            <ul class="no-list work">
+                              <li>
+                                    <h5>
+                                        Founder in Residence, Entrepreneur First
+                                    </h5><span class="label label-info">Jan,2019-May,2019</span>
+                                    <p>
+                                      Exclusively Fintech: Blockchain for fraud | factoring | Open Banking.
+EF is a early stage talent investment firm.
+
+                                </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Software developer, BigchainDB
+                                    </h5><span class="label label-info">Dec,2018-Jan-2019</span>
+                                    <p>
+                                      Building Ocean Protocol layer 1 for the data sharing platform. Ocean Protocol is data sharing platform.
+                                </p>
+                                </li>
+                              <li>
+                                    <h5>
+                                        Co-Founder, Blockvidhya
+                                    </h5><span class="label label-info">Mar,2018-Dec2018</span>
+                                    <p>
+                                      Wearing multiple hats. Writing first line of code to talking customers. Blockvidhya was supported by HST, IIT Mandi incubation center. It also got into YC Startup School.
+
+                                </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Ethreum Foundation, Grantee - REMOTE
+                                    </h5><span class="label label-info">Jan-Sept,2018</span>
+                                    <p>
+                                      
+
+Worked as Research grantee the on development of Solidity and go-ethereum. Completion of grant period he is continuing his voluntarily contribution. 
+                                    </p>
+                                </li>
+                                <!-- <li>
+                                    <h5>
+                                        Co-Founder,   - Bangalore
+                                    </h5><span class="label label-info">Aug-Dec,2016</span>
+                                    <p>
+                                     A failed cryid remarkable stuffs but stopped due to limited bandwidth and resources.
+                                    </p>
+                                </li> -->
+                                <li>
+                                    <h5>
+                                        Associate Software Developer,  Red Hat - Bangalore
+                                    </h5><span class="label label-info">July,2016-Sept,2017</span>
+                                    <p>
+                                      I was working on the DHT module of GlusterFS. GlusterFS is Distributed File System which manages data's in terms of terabytes system project. Also, worked on the core utils module and enhanced the performance.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Ruby on Rails dev, Ajatus Software - Bhubaneshwar
+                                    </h5><span class="label label-info">Feb-Apr 2016</span>
+                                    <p>
+                                      Full stack dev on Ruby on Rails.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                       Student developer, Google Summer of Code - Remote
+                                    </h5><span class="label label-info">Feb-July 2015</span>
+                                    <p>
+                                      Worked on RPC protocol, ruby binding for cap'n proto.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h5>
+                                        Marketing person, Kumonit - Bhubaneshwar
+                                    </h5><span class="label label-info">2014</span>
+                                    <p>
+                                      Worked for startup started by college freinds. There I was the point of initial contact for customers.
+                                    </p>
+                                </li>
+                            </ul>
+                            <!-- <h3>
+                                Education
+                            </h3>
+                            <ul class="no-list work">
+                                <li>
+                                    <h5>
+                                    </h5><!-- <span class="label label-success">2013-2014</span> -->
+                                    <p>
+                                       <!--  I tried to explore as much I can do. Many times, I was the least qualified candidate in achdemics during college time. My focus was in startups and reading stuffs which was not in ciriculam.. -->
+                                    </p>
+                                </li>
+
+                            </ul> 
+                        </div>
+                        <div class="g1">
+                            <!--  -->
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              <!-- Portfolio Tab Data -->
+                  <div id="portfolio">
+                      <section class="clearfix">
+                         <div class="g1">
+                           <div class="sny-icon-box">
+                             <div class="sny-icon">
+                                <i class="icon-user"></i>
+                              </div>
+                              <div class="sny-icon-content">
+                                <h4>Hacks | volunteer Work</h4>
+                                <a href=""></br></a><p>
+                                  Won 2 Hacks in 2019, 3 hacks in 2018. Build Hyperledger Community at Bangalore of 1200+ folks.
+                                </p>
+                              </div>
+                            <!--   <div class="sny-icon-content">
+                                <h4>GlusterFS, Red Hat</h4>
+                                <a href=""></br></a><p>odeded Distributed System Project GlusterFS. There I was working on DHT module which later helped me to got into Blockchain. Also, worked on core utils modulon Maxxing pour un client à Dubaï</p>
+                              </div> -->
+                             
+                              
+                           </div>
+                         </div>
+                         <div class="break"></div>
+
+                      </section>
+                  </div>
+              <!-- End Portfolio Data -->
+              <!-- Contact Tab Data -->
+                <div id="contact">
+                    <section class="clearfix">
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-globe"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>Address</h4>
+                              <p>Singapore - Remote -
+                                New Delhi</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-phone"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>DM me on</h4>
+                              <p> <a href="https://twitter.com/a4nkit">Twitter</a> | <a href="https://www.linkedin.com/in/ankitrajjha/">LinkedIn</a><br/>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="g1">
+                         <div class="sny-icon-box">
+                           <div class="sny-icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="sny-icon-content">
+                              <h4>mail</h4>
+                              <p>ankitblockchain3@gmail.com</p>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="break"></div>
+
+                    </section>
+                </div>
+              <!-- End Contact Data -->
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+              Together , we are stronger and there’s no limit to our ambition
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+
 
 </body>
-</html> 
-
+</html>
